@@ -7,10 +7,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest", 
+    "test": "vitest",
     "bdd_dry_run": "./node_modules/@cucumber/cucumber/bin/cucumber.js --dry-run -f html:./living-documenation-feature/report.html"
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
     "@cucumber/cucumber": "^11.0.1",
     "@playwright/test": "^1.48.2",
     "pixelmatch": "^6.0.0",
