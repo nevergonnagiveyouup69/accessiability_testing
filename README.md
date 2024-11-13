@@ -6,7 +6,7 @@ This type of testing ensures that applications are usable by a wide range of peo
 
 After following the setup guides from before 
 
-We can see when we want to test a single page [vite_testing](https://playwright.dev/docs/accessibility-testing).
+To test a single page we can use [playwrights library](https://playwright.dev/docs/accessibility-testing).
 
 ``` bash
 When('I check for violations', async function () {    
@@ -32,7 +32,9 @@ For instance:
 
 **2. News Websites in Developing Regions**: Some news outlets from smaller regions might focus on text and images but may not meet color contrast or resizing requirements, sticking to basic alternative text on images.
 
-- These sites typically provide:
+![alt-text](<github_assets/image1.png>)
+
+### These sites typically provide:
 
     - Basic alt text for images,
     - Text descriptions for important elements, and
@@ -56,7 +58,10 @@ Level AA is the standard most government, corporate, and educational websites st
 **3. Educational Institutions:**
 
 - **Harvard University’s Website**: Strives for Level AA, including accessible navigation, alt text, and accessible media content.
-These websites feature:
+
+![alt-text](<github_assets/image2.png>)
+
+### These websites feature:
 
     - High-contrast text,
     - Screen reader-friendly navigation,
@@ -79,8 +84,11 @@ Level AAA is very difficult to achieve due to the complex requirements. It is ra
 
 **3. Education or Non-Profit Pages Focused on Accessibility:**
 
- - **Khan Academy's** tutorials on inclusive design, may reach AAA standards, including easy-to-read language, alternative descriptions for complex visuals, and options to reduce motion.
-These websites often include:
+ - **Khan Academy's** have tutorials on inclusive design, that may reach AAA standards, including easy-to-read language, alternative descriptions for complex visuals, and options to reduce motion.
+
+![alt-text](<github_assets/image3.png>)
+
+### These websites often include:
 
     - Extended text customization options,
     - Sign language or audio descriptions for content,
